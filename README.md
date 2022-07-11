@@ -2,13 +2,14 @@ ApiKey Bundle
 =============
 
 Creates an avenue for using ApiKey authentication for Symfony2. Requires FOSUserBundle.
+A new replacement for `uecode/api-key-bundle` package
 
 # Installation
 
 Requires composer, install as follows
 
 ```sh
-composer require uecode/api-key-bundle dev-master
+composer require semitono/api-key-bundle
 ```
 
 ## Enable Bundle

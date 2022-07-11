@@ -1,7 +1,7 @@
 {
-    "name": "uecode/api-key-bundle",
+    "name": "semitono/api-key-bundle",
     "description": "Creates an avenue for using ApiKey authentication for Symfony2. Requires FOSUserBundle.",
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "require": {
         "php": "^5.3|^7.0",
         "symfony/symfony": "^2.3|^3.0",
@@ -16,6 +16,13 @@
         {
             "name": "Aaron Scherer",
             "email": "aequasi@gmail.com"
+        },
+        {
+            "name": "Oleks Polish",
+            "email": "oleks.polish@gmail.com"
         }
-    ]
+    ],
+    "replace": {
+        "uecode/api-key-bundle": "3.0.0"
+    }
 }
